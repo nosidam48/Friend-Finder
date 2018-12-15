@@ -1,0 +1,29 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "A dating app using heroku to deploy",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosidam48/Friend-Finder.git"
+  },
+  "keywords": [
+    "dating",
+    "heroku",
+    "routes"
+  ],
+  "author": "Madison T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosidam48/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/nosidam48/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
