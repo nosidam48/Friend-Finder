@@ -17,14 +17,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
     <style>
-        h3 {font-size:40px;
+        h3 {font-size:27px;
         border-bottom: 2px solid #532C06}
-        /* h4 {background-color:white;
-            padding:5px;
+        h4 {
             margin-bottom:20px;
-            display:inline-block;
-            white-space: nowrap;
-            } */
+            font-size:30px;
+            }
         #name {
             width:auto;
         }
@@ -35,7 +33,7 @@
     <div class="container" style="border:3px solid #532C06">
         <div class="container">
         <div class="row">
-        <h1 class="col-9" style="font-weight:bold;font-size:65px;margin-top:10px">Get your phriend on!</h1>
+        <h1 class="col-9" style="font-weight:bold;margin-left:10px;margin-right:30px;font-size:65px;margin-top:10px;border-bottom:5px #532C06 double">Get your phriend on!</h1>
         <img class="col-3" style="float:right;max-width:20%;height:100px;margin-top:10px" src="https://pl.scdn.co/images/pl/default/313805e896a24c4c9a94c8460930b1ed3034eb12">
         </div>
         </div>
@@ -209,7 +207,7 @@
     <hr>
     <footer class="footer">
         <div class="container">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/nosidam48/Friend-Finder">GitHub
+            <p><a href="/api/friends" style="color:#532C06">API Friends List</a> | <a href="https://github.com/nosidam48/Friend-Finder" style="color:#532C06">GitHub
                     Repo</a></p>
         </div>
     </footer>
@@ -261,19 +259,20 @@
                     // Send the matching user's photo to the modal
                     $("#matchImage").html("<img style='padding:5px;margin:5px' id='bestMatch' class='image-fluid img-thumbnail rounded mx-auto d-block' width='300px' src='" + data.image + "'/>")
                 }).then(function() {
-
+                    console.log("works");
+                  
                 $("#name").val("");
                 $("#photo").val("");
-                $("#q1").val("");
-                $("#q2").val("");
-                $("#q3").val("");
-                $("#q4").val("");
-                $("#q5").val("");
-                $("#q6").val("");
-                $("#q7").val("");
-                $("#q8").val("");
-                $("#q9").val("");
-                $("#q10").val("")
+                $('#q1').val('').trigger('chosen:updated');
+                $('#q2').val('').trigger('chosen:updated');
+                $('#q3').val('').trigger('chosen:updated');
+                $('#q4').val('').trigger('chosen:updated');
+                $('#q5').val('').trigger('chosen:updated');
+                $('#q6').val('').trigger('chosen:updated');
+                $('#q7').val('').trigger('chosen:updated');
+                $('#q8').val('').trigger('chosen:updated');
+                $('#q9').val('').trigger('chosen:updated');
+                $('#q10').val('').trigger('chosen:updated');
 
                 })
             }
