@@ -1,49 +1,109 @@
 let array = [
     {
-        "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"Sweet Dee",
+    "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Struthio_camelus_portrait_Whipsnade_Zoo.jpg/440px-Struthio_camelus_portrait_Whipsnade_Zoo.jpg",
 "scores":[
-    5,
     1,
     4,
-    4,
-    5,
     1,
     2,
     5,
-    4,
-    1
+    5,
+    3,
+    5,
+    2,
+    5
   ]},
   {
-    "name":"Jerry",
-"photo":"espn.com",
+    "name":"Charlie",
+"photo":"http://3.bp.blogspot.com/_eghnAp3M1h0/SUGXlh2tRiI/AAAAAAAAABA/8o4q5n7KWfs/s320/charlie.jpg",
 "scores":[
-3,
-4,
-2,
-1,
-4,
-3,
-2,
-1,
-4,
-3
+5,
+5,
+5,
+5,
+5,
+5,
+5,
+5,
+5,
+5
 ]},
 {
-    "name":"Jane",
-"photo":"facebook.com",
+    "name":"Frank",
+"photo":"http://www3.pictures.zimbio.com/mp/ppW_-8TxxWSl.jpg",
+"scores":[
+5,
+1,
+2,
+5,
+5,
+3,
+2,
+5,
+4,
+5
+]},
+{
+    "name":"Dennis",
+"photo":"https://i.pinimg.com/originals/ec/b2/e2/ecb2e2ac253463464b30d3e79e2fa221.jpg",
+"scores":[
+3,
+5,
+1,
+4,
+5,
+5,
+5,
+5,
+5,
+5
+]},
+{
+    "name":"Mac",
+"photo":"https://img.huffingtonpost.com/asset/5bb4dd8d24000031005633a6.jpeg?ops=scalefit_720_noupscale",
 "scores":[
 2,
+1,
 3,
-4,
-2,
 3,
-4,
+5,
 2,
+4,
+5,
+5,
+5
+]},
+{
+    "name":"The McPoyles",
+"photo":"https://uproxx.files.wordpress.com/2015/09/screenshot.jpg?quality=95&w=650",
+"scores":[
+3,
+5,
+1,
+4,
+1,
 3,
 1,
-5
-]}
+2,
+3,
+1
+]},
+{
+    "name":"The Waitress",
+"photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZdoQz4EYGEDS0bpRLyFJiAxrxEOKCXCmLNeUHgLlcPiS-1VP",
+"scores":[
+2,
+2,
+1,
+2,
+1,
+1,
+3,
+2,
+2,
+1
+]},
 ]
 
 module.exports = array
