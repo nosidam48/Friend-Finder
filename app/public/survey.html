@@ -194,7 +194,7 @@
             <div style="background-color:#532C06" class="modal-dialog" role="document">
                 <div style="background-color:#532C06" class="modal-content">
 
-                    <div style="background-color:#532C06" class="modal-header">
+                    <div style="background-color:#532C06;border:#F2BB00 5px solid;border-bottom:0px" class="modal-header">
                             <h5 class="modal-title text-center" id="matchName"></h5>
                         
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -262,7 +262,7 @@
                     // Send the matching user's photo to the modal
                     $("#matchImage").html("<img style='padding:5px;margin:5px' id='bestMatch' class='image-fluid img-thumbnail rounded mx-auto d-block' width='300px' src='" + data.image + "'/>")
                 }).then(function() {
-                    console.log("works");
+                
                   
                 $("#name").val("");
                 $("#photo").val("");

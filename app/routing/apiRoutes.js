@@ -16,7 +16,7 @@ let friendsPost = function (req, res) {
     
     let newScores = req.body.scores;
     
-    console.log(arb.length);
+   
 
     for (i in arb) {
         let scoreDiff = 0;
